@@ -1,0 +1,115 @@
+html,
+body {
+  height: 100%;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+	text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: -webkit-linear-gradient(to bottom, #52bf90, #317256, #18392b);
+	background: linear-gradient(to bottom, #52bf90, #317256, #18392b);
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  margin: auto;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-floating label {
+	color: #6c757d!important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+.form-select {
+	border: 1px solid #317256;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+.form-select:focus {
+	box-shadow: none;
+	border: 2px solid #317256;
+}
+
+.btn-primary {
+	background-color: #317256;
+	border-color: #317256;
+}
+
+.btn-primary:hover{
+	background-color: #224f3c;
+	border-color: #224f3c;
+}
+
+.btn:focus,
+.btn:active {
+	box-shadow: none;
+	background-color: #224f3c;
+	border-color: #224f3c;
+}
+
+.bg-green {
+	background-color: #317256;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #224f3c;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
+	color: #ffffff;
+}
+
+.navbar a {
+	color: #224f3c;
+}
+
+.navbar a:hover {
+	color: #ffffff;
+}
+
+.box {
+  padding: 20px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.form-check-input:checked {
+	background-color: #317256;
+	border-color: #317256;
+}
+.form-check-input:active,
+.form-check-input:focus {
+	box-shadow: none;
+}
+
+.img-thumbnail.t400{
+	height: 400px;
+	max-width: 400px;
+}
+
+.form-control[type=file]{
+	border: 1px solid #317256;
+}
+
+.form-control[type=file]:hover,
+.form-control[type=file]:focus {
+	box-shadow: none;
+	border: 2px solid #317256;
+}
